@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+GeoPagos.API/GeoPagos.Persistence/Data/Torneo.db-shm
+GeoPagos.API/GeoPagos.Persistence/Data/Torneo.db-wal
