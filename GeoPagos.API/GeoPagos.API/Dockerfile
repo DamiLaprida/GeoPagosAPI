@@ -19,7 +19,7 @@ RUN dotnet restore
 
 # Copia el resto de los archivos y construye la aplicación
 COPY . .
-WORKDIR "/src/GeoPagos.API"
+WORKDIR "/src/GeoPagos.API/GeoPagos.API"
 RUN dotnet build "GeoPagos.API.csproj" -c Release -o /app/build
 
 # Define la etapa de publicación
