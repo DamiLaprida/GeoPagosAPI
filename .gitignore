@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 GeoPagos.API/GeoPagos.Persistence/Data/Torneo.db-shm
 GeoPagos.API/GeoPagos.Persistence/Data/Torneo.db-wal
+Torneo.db
