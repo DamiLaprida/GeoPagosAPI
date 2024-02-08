@@ -10,7 +10,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["GeoPagos.API.csproj", "GeoPagos.API/"]
+COPY GeoPagos.API.csproj .
 RUN dotnet restore "GeoPagos.API/GeoPagos.API.csproj"
 COPY . .
 WORKDIR "/src/GeoPagos.API"
