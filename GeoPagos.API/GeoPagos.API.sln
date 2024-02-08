@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPagos.API", "GeoPagos.API\GeoPagos.API.csproj", "{766B828E-6B4D-44EA-8907-DC509D83B7DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPagos.Domain", "GeoPagos.Domain\GeoPagos.Domain.csproj", "{2A11EE9A-9199-448D-92CD-E9F5B3A76BFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPagos.Persistence", "GeoPagos.Persistence\GeoPagos.Persistence.csproj", "{FCEEA28B-512D-45C7-BDAF-99FAFC6ED563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoPagos.Tests", "GeoPagos.Tests\GeoPagos.Tests.csproj", "{C870C055-54FC-4922-B3E8-AFD5377B7CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{766B828E-6B4D-44EA-8907-DC509D83B7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766B828E-6B4D-44EA-8907-DC509D83B7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766B828E-6B4D-44EA-8907-DC509D83B7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766B828E-6B4D-44EA-8907-DC509D83B7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A11EE9A-9199-448D-92CD-E9F5B3A76BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A11EE9A-9199-448D-92CD-E9F5B3A76BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A11EE9A-9199-448D-92CD-E9F5B3A76BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A11EE9A-9199-448D-92CD-E9F5B3A76BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEEA28B-512D-45C7-BDAF-99FAFC6ED563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEEA28B-512D-45C7-BDAF-99FAFC6ED563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEEA28B-512D-45C7-BDAF-99FAFC6ED563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEEA28B-512D-45C7-BDAF-99FAFC6ED563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C870C055-54FC-4922-B3E8-AFD5377B7CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C870C055-54FC-4922-B3E8-AFD5377B7CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C870C055-54FC-4922-B3E8-AFD5377B7CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C870C055-54FC-4922-B3E8-AFD5377B7CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8FAC60E-1E89-4750-8F73-9684626FB37C}
+	EndGlobalSection
+EndGlobal
